@@ -81,7 +81,7 @@ class Livres extends ResourceController
 
         // TODO 2 : traiter PUT (remplacement complet) vs PATCH (modification partielle).
         if ($methode === 'PUT') {
-            // Remplacement complet : on s'assure que toutes les données requises sont envoyées.
+            // Assure que toutes les données requises sont envoyées.
             // Si des champs manquent, le modèle déclenchera une erreur de validation.
             if (! $this->model->update($id, $donnees)) {
                 return $this->failValidationErrors($this->model->errors());
