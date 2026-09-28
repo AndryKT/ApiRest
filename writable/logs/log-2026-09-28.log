@@ -1,0 +1,42 @@
+CRITICAL - 2026-09-28 09:46:55 --> CodeIgniter\HTTP\Exceptions\HTTPException: Unknown HTTP status code provided with no message: 494
+[Method: GET, Route: api/manuel/livres/99]
+in SYSTEMPATH/HTTP/ResponseTrait.php on line 87.
+ 1 SYSTEMPATH/HTTP/ResponseTrait.php(87): CodeIgniter\HTTP\Exceptions\HTTPException::forUnkownStatusCode()
+ 2 APPPATH/Controllers/Api/LivresManuel.php(22): CodeIgniter\HTTP\Response->setStatusCode()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Api\LivresManuel->show()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/andry/Documents/S5/MrRojo/REST/TP/codeIgniter4/public/index.php')
+CRITICAL - 2026-09-28 09:58:28 --> ParseError: syntax error, unexpected token "{", expecting "function"
+[Method: GET, Route: api/livres]
+in APPPATH/Controllers/Api/Livres.php on line 103.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Router/Router.php(792): class_exists()
+ 5 SYSTEMPATH/Router/Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH/CodeIgniter.php(829): CodeIgniter\Router\Router->handle()
+ 7 SYSTEMPATH/CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/andry/Documents/S5/MrRojo/REST/TP/codeIgniter4/public/index.php')
+CRITICAL - 2026-09-28 09:58:28 --> ParseError: syntax error, unexpected token "{", expecting "function"
+[Method: POST, Route: api/livres]
+in APPPATH/Controllers/Api/Livres.php on line 103.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Router/Router.php(792): class_exists()
+ 5 SYSTEMPATH/Router/Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH/CodeIgniter.php(829): CodeIgniter\Router\Router->handle()
+ 7 SYSTEMPATH/CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/andry/Documents/S5/MrRojo/REST/TP/codeIgniter4/public/index.php')
